@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.converter {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+input, select, button {
+  margin: 10px;
+  padding: 8px;
+  width: 90%;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#switchBtn {
+  width: 40px;
+  height: 40px;
+}

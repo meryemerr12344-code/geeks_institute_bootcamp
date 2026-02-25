@@ -1,0 +1,42 @@
+body {
+  background-color: #0d0d0d;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffe81f;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #ffcc00;
+}
+
+.card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffe81f;
+}
+
+.loading {
+  font-size: 40px;
+  color: #ffe81f;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
